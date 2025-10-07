@@ -1,8 +1,10 @@
 ﻿#pragma once
 
+#include "CoreMinimal.h"
+#include "TeamTypes.generated.h" 
 
 USTRUCT(BlueprintType)
-struct FTeamColor
+struct PWTEAMS_API FTeamColor
 {
 	GENERATED_BODY()
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -12,11 +14,11 @@ struct FTeamColor
 };
 
 USTRUCT(BlueprintType)
-struct FTeamPalette
+struct PWTEAMS_API FTeamPalette
 {
 	GENERATED_BODY()
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FTeamColor TeamBase;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<FLinearColor> PlayerSwatches; // per-player colors within team
+	TArray<FLinearColor> PlayerSwatch;
 };
