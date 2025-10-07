@@ -1,4 +1,9 @@
 # 🧍‍♂️ PW.Teams
+> ⚠️ **Development Status:**  
+> This module is currently being extracted and refactored from **ProjectW**, a private Unreal Engine 5 prototype.  
+> While most systems are functional, interfaces and folder structures may still change as the refactor progresses.  
+> The goal is to make this a clean, reusable, standalone module for future Unreal projects.  
+
 
 **PW.Teams** is a lightweight Unreal Engine 5 module providing team and faction logic for multiplayer and AI-driven gameplay.  
 It defines relations between actors such as Ally, Enemy, or Neutral and provides unified helpers for querying or comparing team states.
