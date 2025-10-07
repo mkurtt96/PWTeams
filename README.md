@@ -57,6 +57,4 @@ See the `LICENSE` file for details.
 ## 👤 Author
 
 **Metehan Goksel Kurtulan**  
-[GitHub: mkurtt96](https://github.com/mkurtt96)  
 Game Developer — Systems & Gameplay Engineering  
-Part of the modular **ProjectW** framework.
