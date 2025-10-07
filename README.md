@@ -1,7 +1,7 @@
 # 🧍‍♂️ PW.Teams
 
 **PW.Teams** is a lightweight Unreal Engine 5 module providing team and faction logic for multiplayer and AI-driven gameplay.  
-It defines relations between actors — such as Ally, Enemy, or Neutral — and provides unified helpers for querying or comparing team states.
+It defines relations between actors such as Ally, Enemy, or Neutral and provides unified helpers for querying or comparing team states.
 
 Originally developed as part of **ProjectW**, this module is designed to be **engine-agnostic**, **dependency-light**, and **fully optional** for other PW systems.
 
@@ -30,11 +30,11 @@ Originally developed as part of **ProjectW**, this module is designed to be **en
 
 ## 🧠 Key Features
 
-- **Relation Masks** — flexible bitmask-based targeting logic.  
-- **Team-Aware Systems** — works seamlessly with ability and projectile systems that support team relations.  
-- **Blueprint Integration** — all relation and color functions are exposed to Blueprint.  
-- **Lightweight & Optional** — no reliance on Gameplay Ability System (GAS) or Unreal-specific subsystems.  
-- **PWAbility Integration** — used for hit, target, and collision filtering when `WITH_PWTEAMS` is enabled.
+- **Relation Masks** : flexible bitmask-based targeting logic.  
+- **Team-Aware Systems** : works seamlessly with ability and projectile systems that support team relations.  
+- **Blueprint Integration** : all relation and color functions are exposed to Blueprint.  
+- **Lightweight & Optional** : no reliance on Gameplay Ability System (GAS) or Unreal-specific subsystems.  
+- **PWAbility Integration** : used for hit, target, and collision filtering when `WITH_PWTEAMS` is enabled.
 
 ---
 
