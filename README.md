@@ -49,8 +49,9 @@ Originally developed as part of **ProjectW**, this module is designed to be **en
 
 ## 📄 License
 
-Licensed under the **MIT License**.  
-See the `LICENSE` file for details.
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
