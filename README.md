@@ -11,11 +11,11 @@ Originally developed as part of **ProjectW**, this module is designed to be **en
 
 **PW.Teams** enables consistent team logic across gameplay systems, featuring:
 
-- **TeamComponent** — replicates and manages team ownership for any actor.  
-- **TeamFunctions** — static library for relation and mask checks.  
-- **TeamAgent Interface** — allows actors to expose team-related data.  
-- **TeamColorData** — optional asset for assigning visual or gameplay color coding to teams.  
-- **TeamTypes** — defines enums, relation masks, and type-safe identifiers.
+- **TeamComponent** : replicates and manages team ownership for any actor.  
+- **TeamFunctions** : static library for relation and mask checks.  
+- **TeamAgent Interface** : allows actors to expose team-related data.  
+- **TeamColorData** : optional asset for assigning visual or gameplay color coding to teams.  
+- **TeamTypes** : defines enums, relation masks, and type-safe identifiers.
 
 ---
 
