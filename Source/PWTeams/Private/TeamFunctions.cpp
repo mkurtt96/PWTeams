@@ -48,6 +48,6 @@ bool UTeamFunctions::MatchesMask(const AActor* A, const AActor* B, uint8 MaskByt
 	case ERelation::Self:  return EnumMaskHas(Mask, ERelationMask::Self);
 	case ERelation::Ally:  return EnumMaskHas(Mask, ERelationMask::Ally);
 	case ERelation::Enemy: return EnumMaskHas(Mask, ERelationMask::Enemy);
-	default:               return false;
+	default:               return true;
 	}
 }
